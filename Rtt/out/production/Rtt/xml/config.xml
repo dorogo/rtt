@@ -1,0 +1,3960 @@
+<level>
+    <num n="0">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1270</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>240</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>165</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>330</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>350</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>365</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>375</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>210</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>200</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>180</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>165</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>150</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>135</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>495</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>205</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>520</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>530</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>540</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>560</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>480</xPos>
+            <yPos>215</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="18">
+            <xPos>470</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>155</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="19">
+            <xPos>460</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="20">
+            <xPos>450</xPos>
+            <yPos>315</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="21">
+            <xPos>445</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="22">
+            <xPos>435</xPos>
+            <yPos>335</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="23">
+            <xPos>425</xPos>
+            <yPos>345</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="24">
+            <xPos>455</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="25">
+            <xPos>465</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="26">
+            <xPos>475</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="27">
+            <xPos>485</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="28">
+            <xPos>100</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1130</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="29">
+            <xPos>1230</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="30">
+            <xPos>115</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>385</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="31">
+            <xPos>500</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>5</w>
+            <h>0</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="32">
+            <xPos>150</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>335</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="33">
+            <xPos>180</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>295</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="34">
+            <xPos>225</xPos>
+            <yPos>115</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="35">
+            <xPos>310</xPos>
+            <yPos>145</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>135</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="36">
+            <xPos>335</xPos>
+            <yPos>175</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>105</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="37">
+            <xPos>350</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="38">
+            <xPos>365</xPos>
+            <yPos>225</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="39">
+            <xPos>375</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="40">
+            <xPos>385</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="41">
+            <xPos>360</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>135</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="42">
+            <xPos>405</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="43">
+            <xPos>385</xPos>
+            <yPos>135</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="44">
+            <xPos>490</xPos>
+            <yPos>20</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="45">
+            <xPos>295</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>150</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="46">
+            <xPos>305</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="47">
+            <xPos>700</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>510</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="48">
+            <xPos>765</xPos>
+            <yPos>35</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>435</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="49">
+            <xPos>830</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>315</w>
+            <h>70</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="50">
+            <xPos>855</xPos>
+            <yPos>120</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>275</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="51">
+            <xPos>990</xPos>
+            <yPos>140</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>120</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="52">
+            <xPos>780</xPos>
+            <yPos>45</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="53">
+            <xPos>795</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="54">
+            <xPos>810</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="55">
+            <xPos>1125</xPos>
+            <yPos>30</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="56">
+            <xPos>1170</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="57">
+            <xPos>1110</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="58">
+            <xPos>1120</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>35</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="59">
+            <xPos>940</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="60">
+            <xPos>955</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>110</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="61">
+            <xPos>915</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="62">
+            <xPos>890</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="63">
+            <xPos>855</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="64">
+            <xPos>785</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>150</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="65">
+            <xPos>1045</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="66">
+            <xPos>1110</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="67">
+            <xPos>1170</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="68">
+            <xPos>1100</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="69">
+            <xPos>1160</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="70">
+            <xPos>1225</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="71">
+            <xPos>1050</xPos>
+            <yPos>235</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="72">
+            <xPos>1040</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="73">
+            <xPos>925</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="74">
+            <xPos>930</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="75">
+            <xPos>900</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="76">
+            <xPos>875</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="77">
+            <xPos>960</xPos>
+            <yPos>255</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="1">
+        <block m="0">
+            <xPos>610</xPos>
+            <yPos>140</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>210</xPos>
+            <yPos>170</yPos>
+            <blockType>1</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>350</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>390</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>190</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>150</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>110</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>70</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>400</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>190</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>30</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>0</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>70</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>330</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>430</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>275</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="2">
+        <block m="0">
+            <xPos>40</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>40</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>40</xPos>
+            <yPos>290</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>380</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>380</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>380</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>380</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>520</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>500</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>0</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>160</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>135</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>160</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>100</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>180</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>490</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>100</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="3">
+        <block m="0">
+            <xPos>180</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>170</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>160</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>190</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>200</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>210</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>220</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>230</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>240</xPos>
+            <yPos>190</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>250</xPos>
+            <yPos>180</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>475</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>440</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>35</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>410</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>245</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>45</w>
+            <h>200</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>195</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>160</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>150</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>0</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>150</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>290</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>350</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="4">
+        <block m="0">
+            <xPos>150</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>180</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>210</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>240</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>270</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>300</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>360</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>390</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>220</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>120</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>300</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>315</xPos>
+            <yPos>225</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>285</xPos>
+            <yPos>235</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>255</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>225</xPos>
+            <yPos>255</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>195</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>165</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>135</xPos>
+            <yPos>285</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>405</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="18">
+            <xPos>375</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="19">
+            <xPos>345</xPos>
+            <yPos>215</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="20">
+            <xPos>420</xPos>
+            <yPos>190</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="21">
+            <xPos>120</xPos>
+            <yPos>290</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>110</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="22">
+            <xPos>330</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>130</w>
+            <h>180</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="23">
+            <xPos>330</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>5</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="24">
+            <xPos>120</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>220</w>
+            <h>95</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="25">
+            <xPos>0</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>120</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="26">
+            <xPos>460</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>200</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="5">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>110</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1000</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>170</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>390</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>70</w>
+            <h>70</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>595</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>0</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>640</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>95</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>50</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>280</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>510</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>125</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>580</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>160</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>0</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>90</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>330</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>180</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>550</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>610</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>390</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="6">
+        <block m="0">
+            <xPos>80</xPos>
+            <yPos>285</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>155</xPos>
+            <yPos>285</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>200</xPos>
+            <yPos>290</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>260</xPos>
+            <yPos>290</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>315</xPos>
+            <yPos>285</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>360</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>395</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>445</xPos>
+            <yPos>290</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>520</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>195</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>-1</enmType>
+            <w>0</w>
+            <h>0</h>
+            <coinType>1</coinType>
+        </block>
+        <block m="10">
+            <xPos>380</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>-1</enmType>
+            <w>0</w>
+            <h>0</h>
+            <coinType>2</coinType>
+        </block>
+        <block m="11">
+            <xPos>510</xPos>
+            <yPos>125</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>-1</enmType>
+            <w>0</w>
+            <h>0</h>
+            <coinType>2</coinType>
+        </block>
+        <block m="12">
+            <xPos>125</xPos>
+            <yPos>235</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>-1</enmType>
+            <w>0</w>
+            <h>0</h>
+            <coinType>1</coinType>
+        </block>
+        <block m="13">
+            <xPos>0</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="7">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>210</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>210</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>140</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>400</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>590</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>210</xPos>
+            <yPos>230</yPos>
+            <blockType>2</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>100</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>450</xPos>
+            <yPos>140</yPos>
+            <blockType>3</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>170</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>10</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>0</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>200</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>285</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>420</xPos>
+            <yPos>190</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>220</w>
+            <h>160</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>610</xPos>
+            <yPos>140</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>95</xPos>
+            <yPos>170</yPos>
+            <blockType>1</blockType>
+            <blockTypeDop>2</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>150</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="8">
+        <block m="0">
+            <xPos>285</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>470</xPos>
+            <yPos>185</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>35</w>
+            <h>155</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>640</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>180</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>815</xPos>
+            <yPos>210</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>225</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>405</xPos>
+            <yPos>285</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>65</w>
+            <h>55</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>585</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>585</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>85</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>405</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>100</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>285</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>180</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>0</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>180</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>220</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>65</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>315</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>90</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>505</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>670</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>330</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>1000</xPos>
+            <yPos>225</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>175</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>1040</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>300</w>
+            <h>60</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="9">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>30</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>0</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>210</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>210</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>140</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>435</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>205</w>
+            <h>195</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>210</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>235</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>115</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>125</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>400</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>590</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="10">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>30</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>0</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>210</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>210</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>140</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>435</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>205</w>
+            <h>195</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>210</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>235</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>115</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>125</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>400</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>590</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>460</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>1</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="11">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>640</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>30</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>0</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>210</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>210</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>190</w>
+            <h>140</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>435</xPos>
+            <yPos>200</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>205</w>
+            <h>195</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>210</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>235</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>115</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>125</w>
+            <h>65</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>400</xPos>
+            <yPos>0</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>590</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="12">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1270</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>240</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>165</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>330</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>350</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>365</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>375</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>210</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>200</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>180</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>165</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>150</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>135</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>495</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>205</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>520</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>530</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>540</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>560</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>480</xPos>
+            <yPos>215</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="18">
+            <xPos>470</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>155</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="19">
+            <xPos>460</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="20">
+            <xPos>450</xPos>
+            <yPos>315</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="21">
+            <xPos>445</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="22">
+            <xPos>435</xPos>
+            <yPos>335</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="23">
+            <xPos>425</xPos>
+            <yPos>345</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="24">
+            <xPos>455</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="25">
+            <xPos>465</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="26">
+            <xPos>475</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="27">
+            <xPos>485</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="28">
+            <xPos>100</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1130</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="29">
+            <xPos>1230</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="30">
+            <xPos>115</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>385</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="31">
+            <xPos>500</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>5</w>
+            <h>0</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="32">
+            <xPos>150</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>335</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="33">
+            <xPos>180</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>295</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="34">
+            <xPos>225</xPos>
+            <yPos>115</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="35">
+            <xPos>310</xPos>
+            <yPos>145</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>135</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="36">
+            <xPos>335</xPos>
+            <yPos>175</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>105</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="37">
+            <xPos>350</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="38">
+            <xPos>365</xPos>
+            <yPos>225</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="39">
+            <xPos>375</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="40">
+            <xPos>385</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="41">
+            <xPos>360</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>135</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="42">
+            <xPos>405</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="43">
+            <xPos>385</xPos>
+            <yPos>135</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="44">
+            <xPos>490</xPos>
+            <yPos>20</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="45">
+            <xPos>295</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>150</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="46">
+            <xPos>305</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="47">
+            <xPos>700</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>510</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="48">
+            <xPos>765</xPos>
+            <yPos>35</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>435</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="49">
+            <xPos>830</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>315</w>
+            <h>70</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="50">
+            <xPos>855</xPos>
+            <yPos>120</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>275</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="51">
+            <xPos>990</xPos>
+            <yPos>140</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>120</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="52">
+            <xPos>780</xPos>
+            <yPos>45</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="53">
+            <xPos>795</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="54">
+            <xPos>810</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="55">
+            <xPos>1125</xPos>
+            <yPos>30</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="56">
+            <xPos>1170</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="57">
+            <xPos>1110</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="58">
+            <xPos>1120</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>35</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="59">
+            <xPos>940</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="60">
+            <xPos>955</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>110</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="61">
+            <xPos>915</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="62">
+            <xPos>890</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="63">
+            <xPos>855</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="64">
+            <xPos>785</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>150</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="65">
+            <xPos>1045</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="66">
+            <xPos>1110</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="67">
+            <xPos>1170</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="68">
+            <xPos>1100</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="69">
+            <xPos>1160</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="70">
+            <xPos>1225</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="71">
+            <xPos>1050</xPos>
+            <yPos>235</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="72">
+            <xPos>1040</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="73">
+            <xPos>925</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="74">
+            <xPos>930</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="75">
+            <xPos>900</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="76">
+            <xPos>875</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="77">
+            <xPos>960</xPos>
+            <yPos>255</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+    <num n="13">
+        <block m="0">
+            <xPos>0</xPos>
+            <yPos>350</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1270</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="1">
+            <xPos>240</xPos>
+            <yPos>220</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>165</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="2">
+            <xPos>330</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="3">
+            <xPos>350</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="4">
+            <xPos>365</xPos>
+            <yPos>310</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="5">
+            <xPos>375</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="6">
+            <xPos>210</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="7">
+            <xPos>200</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="8">
+            <xPos>180</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="9">
+            <xPos>165</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="10">
+            <xPos>150</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="11">
+            <xPos>135</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="12">
+            <xPos>495</xPos>
+            <yPos>195</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>205</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="13">
+            <xPos>520</xPos>
+            <yPos>270</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>105</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="14">
+            <xPos>530</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>75</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="15">
+            <xPos>540</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="16">
+            <xPos>560</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="17">
+            <xPos>480</xPos>
+            <yPos>215</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>170</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="18">
+            <xPos>470</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>155</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="19">
+            <xPos>460</xPos>
+            <yPos>280</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>120</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="20">
+            <xPos>450</xPos>
+            <yPos>315</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="21">
+            <xPos>445</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="22">
+            <xPos>435</xPos>
+            <yPos>335</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="23">
+            <xPos>425</xPos>
+            <yPos>345</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="24">
+            <xPos>455</xPos>
+            <yPos>300</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="25">
+            <xPos>465</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="26">
+            <xPos>475</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="27">
+            <xPos>485</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="28">
+            <xPos>100</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>1130</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="29">
+            <xPos>1230</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="30">
+            <xPos>115</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>385</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="31">
+            <xPos>500</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>5</w>
+            <h>0</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="32">
+            <xPos>150</xPos>
+            <yPos>60</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>335</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="33">
+            <xPos>180</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>295</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="34">
+            <xPos>225</xPos>
+            <yPos>115</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>240</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="35">
+            <xPos>310</xPos>
+            <yPos>145</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>135</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="36">
+            <xPos>335</xPos>
+            <yPos>175</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>105</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="37">
+            <xPos>350</xPos>
+            <yPos>205</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="38">
+            <xPos>365</xPos>
+            <yPos>225</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="39">
+            <xPos>375</xPos>
+            <yPos>240</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="40">
+            <xPos>385</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="41">
+            <xPos>360</xPos>
+            <yPos>5</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>135</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="42">
+            <xPos>405</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="43">
+            <xPos>385</xPos>
+            <yPos>135</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>15</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="44">
+            <xPos>490</xPos>
+            <yPos>20</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="45">
+            <xPos>295</xPos>
+            <yPos>230</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>150</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="46">
+            <xPos>305</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="47">
+            <xPos>700</xPos>
+            <yPos>25</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>510</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="48">
+            <xPos>765</xPos>
+            <yPos>35</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>435</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="49">
+            <xPos>830</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>315</w>
+            <h>70</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="50">
+            <xPos>855</xPos>
+            <yPos>120</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>275</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="51">
+            <xPos>990</xPos>
+            <yPos>140</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>120</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="52">
+            <xPos>780</xPos>
+            <yPos>45</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>80</w>
+            <h>30</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="53">
+            <xPos>795</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>50</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="54">
+            <xPos>810</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="55">
+            <xPos>1125</xPos>
+            <yPos>30</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>50</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="56">
+            <xPos>1170</xPos>
+            <yPos>50</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>20</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="57">
+            <xPos>1110</xPos>
+            <yPos>65</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>55</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="58">
+            <xPos>1120</xPos>
+            <yPos>85</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>35</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="59">
+            <xPos>940</xPos>
+            <yPos>250</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>130</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="60">
+            <xPos>955</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>110</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="61">
+            <xPos>915</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>85</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="62">
+            <xPos>890</xPos>
+            <yPos>305</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>45</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="63">
+            <xPos>855</xPos>
+            <yPos>330</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="64">
+            <xPos>785</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>150</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="65">
+            <xPos>1045</xPos>
+            <yPos>245</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="66">
+            <xPos>1110</xPos>
+            <yPos>275</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="67">
+            <xPos>1170</xPos>
+            <yPos>320</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>60</w>
+            <h>80</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="68">
+            <xPos>1100</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>145</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="69">
+            <xPos>1160</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>40</w>
+            <h>90</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="70">
+            <xPos>1225</xPos>
+            <yPos>340</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>40</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="71">
+            <xPos>1050</xPos>
+            <yPos>235</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>30</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="72">
+            <xPos>1040</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>115</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="73">
+            <xPos>925</xPos>
+            <yPos>265</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>35</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="74">
+            <xPos>930</xPos>
+            <yPos>260</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>20</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="75">
+            <xPos>900</xPos>
+            <yPos>295</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>25</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="76">
+            <xPos>875</xPos>
+            <yPos>325</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>25</w>
+            <h>15</h>
+            <coinType>0</coinType>
+        </block>
+        <block m="77">
+            <xPos>960</xPos>
+            <yPos>255</yPos>
+            <blockType>0</blockType>
+            <blockTypeDop>0</blockTypeDop>
+            <enmType>0</enmType>
+            <w>10</w>
+            <h>10</h>
+            <coinType>0</coinType>
+        </block>
+    </num>
+</level>
