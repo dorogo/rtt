@@ -19,6 +19,7 @@ import flash.utils.getTimer;
 
 public class Lvl extends Sprite {
     private const CALWPARTS:int = 2;    //count allowed parts. сколько частей разрешено для создания, "справа за кадром"
+    private const LVL_LENGTH:int = 200;
     private var vecLvlData:Vector.<Vector.<Vector.<int>>>;      //вектор с блоками из xml
     public var vecParts:Vector.<MovieClip>;                     //вектор частей уровня
     public var vecBl:Vector.<Block>;                            //вектор созданных блоков
@@ -42,8 +43,13 @@ public class Lvl extends Sprite {
     private var vecPoolPreBgTextures:Vector.<MovieClip>;
 
     private var preFrontTextureMc:PreFrontTextureMc;
-    private var preBgTextureMc:PreFrontTextureMc;
+    private var preBgTextureMc:PreBgTextureMc;
     private var blurFilter:BlurFilter;
+
+    private var timeStart:int;
+    private var timeLvl:int;
+
+    private var rdmNumberLvl:int;
 
 //    private var testBg:TestBg;
 //    private var testBgStroke:TestBg;
@@ -68,7 +74,6 @@ public class Lvl extends Sprite {
         var l:int;
         // надо чтоюы в 0-е мувика был блок
         // самым крайним должен быть обычный граунд-блок
-        // TODO check чтобы подряд одинаковые не шли
 //        vecLvlData = new Array([[0,0,0,0],[40,265,0,0],[80,260,0,0],[120, 255,0,0],[130, 230,0, 1],[40,285,0,0],[70,280,0,0],[100, 275,1,0],[130, 270,0, 0],[130, 210,0, 1],[260, 200,0,3], [220, 240,0,0],[220, 280,0,0],[300, 240,0,0],[300,280,0,0],[500,260,0,0],[600,200,0,0],[280,200,1,1],[285,195,1, 0],[520, 260,1, 3]],[[140, 210,0,0],[280, 200,0,0], [240, 240,0,0]]);//,[[0,0,0],[40,265,0],[70,260,0],[100, 255,0],[130, 250,0, 1],[130, 210,0, 1],[260, 200,0], [220, 240,0],[220, 280,0],[300, 240,0],[300,280,0],[500,260,0],[600,200,0],[280,200,1,1],[285,195,1, 2],[520, 260,1, 3]]);
         vecLvlData = Global._vecLvl;
         vecParts = new Vector.<MovieClip>();
@@ -91,39 +96,7 @@ public class Lvl extends Sprite {
         vecPoolPreFrontTextures = new Vector.<MovieClip>();
         vecPreBgTextures = new Vector.<MovieClip>();
         vecPoolPreBgTextures = new Vector.<MovieClip>();
-        //delete
-//        var tmp3:Block;
-//        var tmp3:Block1;
-//        var frontTextureBlock:FrontTextureBlock;
-//        var backTextureBlock:BackTextureBlock;
-        //нижняя полоска блоков
-//        for (var i:int = 0; i <= 25; i++) {
-//            tmp3 = new Block(40 / 2 + i * 40, 400 * .8, 40, 20);
-////            tmp3 = new Block1();
-////            tmp3.y = 400 * .8;
-////            tmp3.x = tmp3.width/2 + i * tmp3.width;
-//            addChild(tmp3);
-//            vecBl.push(tmp3);
-//
-//            frontTextureBlock = new FrontTextureBlock();
-//            frontTextureBlock.gotoAndStop(int(Math.random() * 2) + 1)
-////            frontTextureBlock.cacheAsBitmap = true;
-//            frontTextureBlock.x = tmp3.x + tmp3.width * .5;
-//            frontTextureBlock.y = tmp3.y;
-//            this.addChild(frontTextureBlock);
-//
-//            backTextureBlock = new BackTextureBlock();
-//            backTextureBlock.gotoAndStop(int(Math.random() * 2) + 1)
-////            backTextureBlock.cacheAsBitmap = true;
-//            backTextureBlock.x = tmp3.x + tmp3.width * .5;
-//            backTextureBlock.y = tmp3.y;
-//            this.addChild(backTextureBlock);
-//
-//
-//            tmp3 = null;
-//            backTextureBlock = null;
-//
-//        }
+
         //delete
         //стартовые части
         for (var i:int = 0; i < CALWPARTS; i++) {      //TODO: для разных уровней сделать разные начальные части
@@ -139,40 +112,10 @@ public class Lvl extends Sprite {
             trace(vecParts.length, " ", i);
             removePartLvl(i, true);
         }
-//        for each (q in vecBl) {
-//            q.parent.removeChild(q);
-//            vecPoolBlocks.push(q);
-//        }
-//        vecBl.splice(0, vecBl.length);
-//        for each (q in vecBlForDel) {
-//            q.parent.removeChild(q);
-//            vecPoolBlocks.push(q);
-//        }
-//        vecBlForDel.splice(0,vecBlForDel.length);
-//        for each (q in vecCoins) {
-//            q.parent.removeChild(q);
-//            vecPoolCoins.push(q);
-//        }
-//        vecCoins.splice(0,vecCoins.length);
-//        for each (q in vecEn) {
-//            q.parent.removeChild(q);
-//            vecPoolEnemies.push(q);
-//        }
-//        vecEn.splice(0,vecEn.length);
-//        //destroy textures
-//        for each (q in preFrontTextureMc) {
-//            _root.getPreFrontTextureMc().removeChild(q);
-//            preFrontTextureMc.push(q);
-//        }
-//        vecPreFrontTextures.splice(0,vecPreFrontTextures.length);
-//        for (j = 0; j < vecDopTextures[i].length; j++) {
-//            for (var k:int = vecDopTextures[i][j].numChildren - 1; k > -1; k--) {
-//                vecDopTextures[i][j].removeChildAt(k);
-//            }
-//        }
-//        _root.getFrontTextureMc().removeChild(vecDopTextures[i][0]);
-//        _root.getBackTextureMc().removeChild(vecDopTextures[i][1]);
+//
         traceVecs();
+        timeStart = getTimer();
+        timeLvl = 0;
     }
 
     //========TODO temp for testing============
@@ -234,7 +177,6 @@ public class Lvl extends Sprite {
                     }
                     tmp_1_2.setBlock(vecLvlData[i][j][0] - valueStroke, vecLvlData[i][j][1] - valueStroke, vecLvlData[i][j][5] + valueStroke * 2, vecLvlData[i][j][6] + valueStroke * 2);
                     textureStrokePart.addChild(tmp_1_2);
-//                    trace(tmp_1.scale9Grid);
                 }
                 tmp.visible = true;
                 tmp.alpha = .7;
@@ -266,7 +208,7 @@ public class Lvl extends Sprite {
         }
         l = vecParts.length;
         if (l != 0)
-            tmpPartLvl.x = vecParts[l - 1].x + (vecParts[l - 1].width);// + vecParts[l - 1].getChildAt(0).x);// + tmpPartLvl.getChildAt(0).x;// TODO: почекать если текстура смещается - значит надо здесь чекнуть
+            tmpPartLvl.x = vecParts[l - 1].x + (vecParts[l - 1].width);
         vecParts.push(tmpPartLvl);
         trace(tmpPartLvl.x, " = ", tmpPartLvl.getChildAt(0).x);
         l = vecTexturePartsBlocks.length;
@@ -339,6 +281,7 @@ public class Lvl extends Sprite {
                     trace("Error");
                     break;
             }
+//            partTexture.cacheAsBitmap = true;
 //            partTexture.visible = false;
 //            partTexture.x = tmpTexture.getChildAt(tmpTexture.numChildren - 1).x;
             partTexture.x = tmpTexture.width;
@@ -366,7 +309,7 @@ public class Lvl extends Sprite {
             displayObject.transform.colorTransform = colTransform;
         }
     }
-
+//dsdsad
     public function deleteObj(mc:MovieClip = null, type:int = 1):void {
         //TODO check this deleting blocks
         if (type == 1) {
@@ -386,113 +329,111 @@ public class Lvl extends Sprite {
     }
 
     public function update():void {
-        var started:Number = getTimer();
-        var rdm:int;
-        var l:int;
-        for (var i:int = vecParts.length - 1; i >= 0; i--) {
-            vecParts[i].x -= spd;
-            vecTexturePartsBlocksStroke[i].x -= spd;
-            for (var i_i:int = 0; i_i < vecTextures[i].length; i_i++) {
-                vecTexturePartsBlocks[i][i_i].x -= spd;
-                vecTextures[i][i_i].x -= spd;
+        timeLvl = int((getTimer() - timeStart)/100) + Global._timeLvlGlobal;
+        if (timeLvl > LVL_LENGTH * 10000) {
+            spd = 0;
+            trace("Level completed! Grats!");
+        } else {
+            for (var i:int = vecParts.length - 1; i >= 0; i--) {
+                vecParts[i].x -= spd;
+                vecTexturePartsBlocksStroke[i].x -= spd;
+                for (var i_i:int = 0; i_i < vecTextures[i].length; i_i++) {
+                    vecTexturePartsBlocks[i][i_i].x -= spd;
+                    vecTextures[i][i_i].x -= spd;
+                }
+                vecTexturesStroke[i][0].x -= spd;
+                vecDopTextures[i][0].x -= spd;
+                vecDopTextures[i][1].x -= spd;
+                if (vecParts[i].x <= -(vecParts[i].width + vecParts[i].getChildAt(0).x)) {
+                    removePartLvl(i);
+                }
             }
-            vecTexturesStroke[i][0].x -= spd;
-            vecDopTextures[i][0].x -= spd;
-            vecDopTextures[i][1].x -= spd;
-            if (vecParts[i].x <= -(vecParts[i].width + vecParts[i].getChildAt(0).x)) {
-                removePartLvl(i);
+            //update prefront textures
+            if (blurFilter == null) {
+                blurFilter = new BlurFilter(20, 0, BitmapFilterQuality.LOW);
             }
-        }
-        //update prefront textures
-        if (blurFilter == null) {
-            blurFilter = new BlurFilter(20,0,BitmapFilterQuality.LOW);
-        }
-        i = vecPreFrontTextures.length;         //кол-во существуюших частей префронт текстур
-        if (i < 2 && Math.random() < .013 ) {   //TODO подкрутить псевдорандом
-            if ((preFrontTextureMc = vecPoolPreFrontTextures.pop() as PreFrontTextureMc) == null) {
-                preFrontTextureMc = new PreFrontTextureMc();
+            i = vecPreFrontTextures.length;         //кол-во существуюших частей префронт текстур
+            if (i < 2 && Math.random() < .013) {   //TODO подкрутить псевдорандом
+                if ((preFrontTextureMc = vecPoolPreFrontTextures.pop() as PreFrontTextureMc) == null) {
+                    preFrontTextureMc = new PreFrontTextureMc();
+                }
+                blurFilter.blurX = 20;
+                blurFilter.blurY = 0;
+                preFrontTextureMc.filters = [blurFilter];
+                //TODO поправить x появления
+                if (i > 0 && (vecPreFrontTextures[i - 1].x + vecPreFrontTextures[i - 1].width > Game.SWF_W)) {
+                    preFrontTextureMc.x = preFrontTextureMc.width + vecPreFrontTextures[i - 1].x + vecPreFrontTextures[i - 1].width + Math.round(Math.random() * 300);
+                } else {
+                    preFrontTextureMc.x = preFrontTextureMc.width * 1.5;
+                }
+                vecPreFrontTextures.push(preFrontTextureMc);
+                _root.getPreFrontTextureMc().addChild(preFrontTextureMc);
             }
-            blurFilter.blurX = 20;
-            blurFilter.blurY = 0;
-
-            preFrontTextureMc.filters = [blurFilter];
-            //TODO поправить x появления
-            if (i> 0 && (vecPreFrontTextures[i-1].x + vecPreFrontTextures[i-1].width > Game.SWF_W)) {
-                preFrontTextureMc.x = preFrontTextureMc.width + vecPreFrontTextures[i-1].x + vecPreFrontTextures[i-1].width + Math.round(Math.random() * 300);
-            } else {
-                preFrontTextureMc.x = preFrontTextureMc.width * 1.5;
+            for (i = 0; i < vecPreFrontTextures.length; i++) {
+                vecPreFrontTextures[i].x -= spd * 3;
+                if (vecPreFrontTextures[i].x < -vecPreFrontTextures[i].width) {
+                    vecPoolPreFrontTextures.push(vecPreFrontTextures[i]);
+                    _root.getPreFrontTextureMc().removeChild(vecPreFrontTextures[i]);
+                    vecPoolPreFrontTextures[i] = null;
+                    vecPreFrontTextures.splice(i, 1);
+                }
             }
-            vecPreFrontTextures.push(preFrontTextureMc);
-            _root.getPreFrontTextureMc().addChild(preFrontTextureMc);
-        }
-        for (i = 0; i < vecPreFrontTextures.length; i++) {
-            vecPreFrontTextures[i].x -= spd * 3;
-            if(vecPreFrontTextures[i].x < -vecPreFrontTextures[i].width){
-                vecPoolPreFrontTextures.push(vecPreFrontTextures[i]);
-                _root.getPreFrontTextureMc().removeChild(vecPreFrontTextures[i]);
-                vecPoolPreFrontTextures[i] = null;
-                vecPreFrontTextures.splice(i, 1);
-            }
-        }
-        //update preBg textures
-        i = vecPreBgTextures.length;
-        if (i < 2 && Math.random() < .013 ) {   //TODO подкрутить псевдорандом
-            if ((preBgTextureMc = vecPoolPreBgTextures.pop() as PreFrontTextureMc) == null) {
-                preBgTextureMc = new PreFrontTextureMc();
-            }
+            //update preBg textures
+            i = vecPreBgTextures.length;
+            if (i == 0 || (vecPreBgTextures[i-1].x + vecPreBgTextures[i-1].width) < Game.SWF_W * 1.2) {
+                if ((preBgTextureMc = vecPoolPreBgTextures.pop() as PreBgTextureMc) == null) {
+                    preBgTextureMc = new PreBgTextureMc();
+                }
 //            if (blurFilter == null) {
 //                blurFilter = new BlurFilter(20,20,BitmapFilterQuality.LOW);
 //            }
-            blurFilter.blurX = 50;
-            blurFilter.blurY = 20;
-            preBgTextureMc.filters = [blurFilter];
-            //TODO поправить x появления
-            if (i> 0 && (vecPreBgTextures[i-1].x + vecPreBgTextures[i-1].width > Game.SWF_W)) {
-                preBgTextureMc.x = preBgTextureMc.width + vecPreBgTextures[i-1].x + vecPreBgTextures[i-1].width + Math.round(Math.random() * 300);
-            } else {
-                preBgTextureMc.x = preBgTextureMc.width * 1.5;
+                blurFilter.blurX = 8;
+                blurFilter.blurY = 3;
+                blurFilter.quality = BitmapFilterQuality.LOW;
+                preBgTextureMc.filters = [blurFilter];
+                if (vecPreBgTextures.length > 0) {
+                    preBgTextureMc.x = vecPreBgTextures[vecPreBgTextures.length - 1].x + vecPreBgTextures[vecPreBgTextures.length - 1].width - 5;
+                } else {
+                    preBgTextureMc.x = 0;
+                }
+                vecPreBgTextures.push(preBgTextureMc);
+                preBgTextureMc.cacheAsBitmap = true;
+                _root.getPreBgTextureMc().addChild(preBgTextureMc);
             }
-            vecPreBgTextures.push(preBgTextureMc);
-            _root.getPreBgTextureMc().addChild(preBgTextureMc);
-        }
-        for (i = 0; i < vecPreBgTextures.length; i++) {
-            vecPreBgTextures[i].x -= spd * .5;
-            if(vecPreBgTextures[i].x < -vecPreBgTextures[i].width){
-                vecPoolPreBgTextures.push(vecPreBgTextures[i]);
-                _root.getPreBgTextureMc().removeChild(vecPreBgTextures[i]);
-                vecPreBgTextures[i] = null;
-                vecPreBgTextures.splice(i, 1);
+            for (i = 0; i < vecPreBgTextures.length; i++) {
+                vecPreBgTextures[i].x -= spd * .5;
+                if (vecPreBgTextures[i].x < -vecPreBgTextures[i].width) {
+                    vecPoolPreBgTextures.push(vecPreBgTextures[i]);
+                    _root.getPreBgTextureMc().removeChild(vecPreBgTextures[i]);
+                    vecPreBgTextures[i] = null;
+                    vecPreBgTextures.splice(i, 1);
+                }
             }
-        }
-
-
-
 //        какие-то неполадки с бордер
-        //чек и добавление новой части уровня
-        if (vecParts[0] != null && vecParts[0].x <= 0 && vecParts.length == 2) {
-            rdm = int(Math.random() * vecLvlData.length);
-            if (vecRdm.length != vecLvlData.length && vecRdm.length != 0) {
-                var flag:Boolean = true;
-                while (flag) {
-                    flag = false;
-                    rdm = int(Math.random() * vecLvlData.length);
-                    for (var r:int = 0; r < vecRdm.length; r++) {
-                        if (rdm == vecRdm[r]) {
-                            flag = true;
+            //чек и добавление новой части уровня
+            if (vecParts[0] != null && vecParts[0].x <= 0 && vecParts.length == 2) {
+                rdmNumberLvl = int(Math.random() * vecLvlData.length);
+                if (vecRdm.length != vecLvlData.length && vecRdm.length != 0) {
+                    var flag:Boolean = true;
+                    while (flag) {
+                        flag = false;
+                        rdmNumberLvl = int(Math.random() * vecLvlData.length);
+                        for (var r:int = 0; r < vecRdm.length; r++) {
+                            if (rdmNumberLvl == vecRdm[r]) {
+                                flag = true;
+                            }
                         }
                     }
+                    vecRdm.push(rdmNumberLvl);
+                } else {
+                    vecRdm = new <int>[];
+                    rdmNumberLvl = int(Math.random() * vecLvlData.length);
+                    vecRdm.push(rdmNumberLvl);
                 }
-                vecRdm.push(rdm);
-            } else {
-                vecRdm = new <int>[];
-                rdm = int(Math.random() * vecLvlData.length);
-                vecRdm.push(rdm);
-            }
-            createPartLvl(rdm);
+                createPartLvl(rdmNumberLvl);
 //            createPartLvl(7);
+            }
         }
-//        if (getTimer() - started > 0)
-//            trace("delta = " + (getTimer() - started));
     }
 
     private function removePartLvl(i:int = 0, fullReset:Boolean = false) : void {
@@ -586,9 +527,9 @@ public class Lvl extends Sprite {
 
     private var vecRdm:Vector.<int> = new Vector.<int>();
 //    для обводки надо создавать такае же блоки и или scale9 их или просто создавать со смешением и увеличенными
-//хз как по скорости конечно
+//    хз как по скорости конечно
     private function setupTextures(i:int = 0):void {
-        var frontTextureBlock:FrontTextureBlock;
+        var frontTextureBlock:FrontTextureBlock = new FrontTextureBlock();
         var oneBlockCntr:MovieClip;
         var backTextureBlock:BackTextureBlock;
         var frontCntr:MovieClip;
@@ -596,10 +537,17 @@ public class Lvl extends Sprite {
         var tmp_mc:Block;
         var tmp_cur:Block;
         var flag:Boolean = true;
+        var tmpTopHghtFTexture:Number = 0;
+        for (var k:int = 0; k < frontTextureBlock.totalFrames; k++) {
+            if (tmpTopHghtFTexture < frontTextureBlock.height) {
+                tmpTopHghtFTexture = frontTextureBlock.height;
+            }
+            frontTextureBlock.nextFrame();
+        }
         frontCntr = new MovieClip();
         backCntr = new MovieClip();
         oneBlockCntr = new MovieClip();
-        for (var k:int = 0; k < vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].numChildren; k++) {
+        for (k = 0; k < vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].numChildren; k++) {
             tmp_mc = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k) as Block;
             flag = true;
             for (var j:int = 0; j < vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].numChildren; j++) {
@@ -609,51 +557,91 @@ public class Lvl extends Sprite {
                     flag = false;
                 }
             }
-//            sdasdasdasd
-            //после создания битмапа делитить мувики
+
+//          после создания битмапа делитить мувики
             if (flag) {
                 oneBlockCntr = new MovieClip();
                 frontTextureBlock = new FrontTextureBlock();
-                frontTextureBlock.gotoAndStop(2);
-                frontTextureBlock.x = oneBlockCntr.width;
+                frontTextureBlock.gotoAndStop(1);
+                frontTextureBlock.x = 0;
+//                frontTextureBlock.x = oneBlockCntr.width;
+                frontTextureBlock.y = tmpTopHghtFTexture - 10;
                 oneBlockCntr.addChild(frontTextureBlock);
-                var ln:int = tmp_mc.width / frontTextureBlock.width;
+                var ln:int = tmp_mc.width / frontTextureBlock.width -1;
+                var tmpFrame:int;
+                var prevFrame:int = 0;
                 for (j = 0; j < ln; j++) {
                     frontTextureBlock = new FrontTextureBlock();
-//                    frontTextureBlock.gotoAndStop(int(Math.random() * 2) + 1)
-                    frontTextureBlock.gotoAndStop(1);
+                    if ((tmpFrame = int(Math.random() * (frontTextureBlock.totalFrames - 1)) + 2) == prevFrame)
+                        if (--tmpFrame == 1)
+                            tmpFrame +=2;
+                    prevFrame = tmpFrame;
+                    frontTextureBlock.gotoAndStop(tmpFrame);
+//                    frontTextureBlock.gotoAndStop(2);
                     frontTextureBlock.x = oneBlockCntr.width;
+                    frontTextureBlock.y = tmpTopHghtFTexture - 10;
                     oneBlockCntr.addChild(frontTextureBlock);
                 }
                 frontTextureBlock = new FrontTextureBlock();
-                frontTextureBlock.gotoAndStop(2);
+                frontTextureBlock.gotoAndStop(1);
                 frontTextureBlock.scaleX = -1;
-                frontTextureBlock.x = oneBlockCntr.width;
+                frontTextureBlock.x = oneBlockCntr.width + frontTextureBlock.width;
+                frontTextureBlock.y = tmpTopHghtFTexture - 10;
                 oneBlockCntr.addChild(frontTextureBlock);
+
                 oneBlockCntr.x = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).x;// + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).width * .5;
                 oneBlockCntr.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y;
-                var bitmapData:BitmapData = new BitmapData(oneBlockCntr.width * 2, oneBlockCntr.height * 2, true, 0);
+                var bitmapData:BitmapData = new BitmapData(oneBlockCntr.width, tmpTopHghtFTexture, true, 0);
+//                var bitmapData:BitmapData = new BitmapData(oneBlockCntr.width * 2, oneBlockCntr.height * 2, false, 0xffffff);
                 bitmapData.draw(oneBlockCntr);
                 // And to actually see it
                 var bitmap:Bitmap = new Bitmap(bitmapData);
                 bitmap.x = -frontTextureBlock.width * .5 + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).x;// + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).width * .5;
-                bitmap.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y - bitmap.height * .5;
+//                bitmap.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y;// - valueStroke;// - bitmap.height * .5;
+                bitmap.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y - valueStroke - tmpTopHghtFTexture + 10;// - bitmap.height * .5;
                 frontCntr.addChild(bitmap);
                 frontTextureBlock = null;
                 oneBlockCntr = null;
-                backTextureBlock = new BackTextureBlock();
-                backTextureBlock.gotoAndStop(int(Math.random() * 2) + 1)
-                backTextureBlock.x = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).width * .5;
-                backTextureBlock.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y;
-                backCntr.addChild(backTextureBlock);
-                backTextureBlock = null;
+                if(tmp_mc.width > 60 || Math.random() < .8) {
+//                    backTextureBlock = new BackTextureBlock();
+//                    backTextureBlock.gotoAndStop(int(Math.random() * backTextureBlock.totalFrames) + 1);
+//                    if (backTextureBlock.width >= tmp_mc.width)
+//                        backTextureBlock.gotoAndStop(int(Math.random() * 4) + 1);
+//                    backTextureBlock.x = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).x + vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).width * .5;
+//                    backTextureBlock.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y;
+//                    backTextureBlock.cacheAsBitmap = true;
+//                    trace("isCache "+backTextureBlock.cacheAsBitmap, backCntr.cacheAsBitmap);
+//                    backCntr.addChild(backTextureBlock);
+//                    backTextureBlock = null;
+
+                    var tmpNumParts:int = (int) (tmp_mc.width/100) + 1;
+                    prevFrame = 0;
+                    for (j = 1; j <= tmpNumParts; j++) {
+                        backTextureBlock = new BackTextureBlock();
+                        backTextureBlock.gotoAndStop(int(Math.random() * backTextureBlock.totalFrames) + 1);
+                        if (backTextureBlock.osnovaMc.width >= tmp_mc.width )//|| ((tmpFrame = (int)(backTextureBlock.gotoAndStop(int(Math.random() * 4) + 1))) == prevFrame))
+                            backTextureBlock.gotoAndStop(int(Math.random() * 2) + 1);
+//                            if (--tmpFrame == 0)
+//                                tmpFrame = 2;
+//                        prevFrame = tmpFrame;
+                        backTextureBlock.x = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].x + tmp_mc.x
+                                +  (Math.random() * (int)(tmp_mc.width / tmpNumParts - backTextureBlock.osnovaMc.width))
+                                + (j - 1) * vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).width / tmpNumParts;
+                        backTextureBlock.y = vecTexturePartsBlocks[i][Global.TEXTURE_NORMAL].getChildAt(k).y;
+                        backTextureBlock.cacheAsBitmap = true;
+                        backCntr.addChild(backTextureBlock);
+                        backTextureBlock = null;
+
+                    }
+
+                }
             }
         }
 
 
 
 //        frontCntr.cacheAsBitmap = true;
-        backCntr.cacheAsBitmap = true;
+//        backCntr.cacheAsBitmap = true;
         vecDopTextures.push(new <MovieClip>[frontCntr, backCntr]);
 //        _root.getFrontTextureMc().addChild(bitmap);
         _root.getFrontTextureMc().addChild(frontCntr);

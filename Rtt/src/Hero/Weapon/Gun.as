@@ -14,7 +14,7 @@ public class Gun extends WeaponRange {
     }
 
     override public function activate():void {
-        super.createBullet(this.parent.x, this.parent.y-20, 5, 5);
+        super.createBullet(this.parent.x+20, this.parent.y-20, 10, 8);
     }
 
     override public function update():void {

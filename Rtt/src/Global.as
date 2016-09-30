@@ -20,11 +20,17 @@ public final class Global {
     public static var _arrLvl:Array = [];
     public static var _vecLvl:Vector.<Vector.<Vector.<int>>> = new Vector.<Vector.<Vector.<int>>>();
     public static var _spdLvl:int;
+    public static var _timeLvlGlobal:int = 0;
+    public static var _lvlType:int = 1;
 
     public function Global() {
     }
 
     static public function initXml() {
+    }
+
+    static public function getSavedData() {
+        //тут берем из сохранений
     }
 }
 }

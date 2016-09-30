@@ -9,7 +9,7 @@ package Hero.Weapon {
 public class Sword extends WeaponMelee {
     public function Sword() {
         super(this);
-        super.addMeleeWeap(35, 50);
+        super.addMeleeWeap(45, 50);
     }
 }
 }

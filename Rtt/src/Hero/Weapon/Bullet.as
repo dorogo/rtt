@@ -11,6 +11,7 @@ import flash.utils.getTimer;
 
 public class Bullet extends MovieClip {
     private var bull:BulletMc;
+    private var bullSkin:BulletContainerMc;
     private var life:int;
     private var bornTime:int;
     private var gravity:Number;
@@ -18,7 +19,11 @@ public class Bullet extends MovieClip {
 
     public function Bullet() {
         bull = new BulletMc();
+        bull.visible = false;
         this.addChild(bull);
+        bullSkin = new BulletContainerMc();
+        bullSkin.gotoAndStop(Global._lvlType);
+        this.addChild(bullSkin);
         bornTime = getTimer();
     }
 
@@ -31,6 +36,8 @@ public class Bullet extends MovieClip {
         bornTime = getTimer();
         gravity = _g;
         decG = decrementG;
+
+        bullSkin.y = -bull.height * .5;
     }
 
     public function reduceLife(count:int = 1):void {
@@ -48,6 +55,10 @@ public class Bullet extends MovieClip {
     public function getGravity():Number {
         gravity -= decG;
         return gravity;
+    }
+
+    public function getBullet() : MovieClip {
+        return bull;
     }
 }
 }

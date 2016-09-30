@@ -13,6 +13,7 @@ public class WeaponRange extends MovieClip implements IWeapon {
     private var _arrBullets:Array;
     private var _arrPoolFreeBullets:Array;
     private var bullet:Bullet;
+    private const TYPE:int = 2;
 
     public function WeaponRange(_rt:MovieClip) {
         _arrBullets = [];
@@ -47,6 +48,10 @@ public class WeaponRange extends MovieClip implements IWeapon {
 
     public function getArrBullets():Array {
         return _arrBullets;
+    }
+
+    public function getType():int {
+        return TYPE;
     }
 }
 }

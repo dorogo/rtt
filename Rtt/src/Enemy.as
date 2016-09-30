@@ -19,7 +19,7 @@ public class Enemy extends MovieClip {
     public static const TYPE_FLYING_WTIH_ATACK:int = 5;
     public static const TYPE_BOSS:int = 6;
     public var vy:Number = 0;
-    public var vx:Number = 8;
+    public var vx:Number = 3;
     public const _maxVY:Number = 12;
     private var _gravity:Number = .9;
     private var _jumpV:Number = -11;
@@ -29,6 +29,7 @@ public class Enemy extends MovieClip {
     private var bullet:Bullet;
     private var tmpTime:int;
     private var lastHitedEnemy:Boolean;
+    private var direction:int = 1;//1 - left, -1 - right
 
     public function Enemy() {
 
@@ -55,6 +56,9 @@ public class Enemy extends MovieClip {
         this.y = startY
         life = 1;
         type = t;
+        if (type == Enemy.TYPE_BOSS) {
+            life = 3;
+        }
         //TODO : name возможно не обнуляется
         this.name = "enemy";
         if (enemyDebug == null) {
@@ -79,15 +83,25 @@ public class Enemy extends MovieClip {
     private var tmpArray:Array;
 
     public function update():void {
+//        ололол смотри щаметки
+        if(type == Enemy.TYPE_BOSS)
+            trace(this.x + " - " + direction);
         //TODO отбрасывание для всех
-        if (type != Enemy.TYPE_STATIC && type != Enemy.TYPE_STATIC_WTIH_ATACK) {
+        if (type != Enemy.TYPE_STATIC && type != Enemy.TYPE_STATIC_WTIH_ATACK ) {
             //отбрасывание при ударе
-            if (mark != 0 && this.x - mark < 100) {
+            if (mark != 0 && this.x - mark < 100 && type != Enemy.TYPE_BOSS) {
                 this.x += vx * 1.5;
                 if (type == Enemy.TYPE_RUNNER && this.x - mark < 70)
                     this.y -= 10;
             } else {
-                this.x -= vx / 10;
+                if (type != Enemy.TYPE_BOSS) {
+                    this.x -= vx ;
+                } else {
+                    if ((this.x < Game.SWF_W * .7 && direction == 1) || (this.x > Game.SWF_W * 1.5 && direction == -1)) {
+                        direction *= -1;
+                    }
+                    this.x -= vx * direction - Global._spdLvl * ((1 + direction)/ 2);
+                }
                 mark = 0;
                 for (var i:int = 0; i > tmpArray.lengh; i++) {
                     tmpArray[i].x -= 10;
@@ -154,8 +168,8 @@ public class Enemy extends MovieClip {
                 return true;
             }
         }
-        lastHitedEnemy = t.hitTestObject(enemyDebug);
-        return t.hitTestObject(enemyDebug);
+        lastHitedEnemy = t.hitTestObject(enemyDebug.p);
+        return t.hitTestObject(enemyDebug.p);
 //        }else {
 //            return this.hitTestObject(t);
 //        }

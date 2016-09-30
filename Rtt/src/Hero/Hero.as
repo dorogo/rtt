@@ -13,6 +13,7 @@ import Hero.Weapon.WeaponMelee;
 import Hero.Weapon.WeaponRange;
 
 import flash.display.MovieClip;
+import flash.events.Event;
 
 public class Hero extends MovieClip {
     private var _root:MovieClip;
@@ -25,9 +26,11 @@ public class Hero extends MovieClip {
     public var countAttacks:int;
     public var alrdAttacked:Boolean;
     public var isAttack:Boolean;
+    public var attackAllowed:Boolean;
     public var isJump:Boolean;
     public var secondJumpAllowed:Boolean;
     public var groundType:int;// 0 - block, 1 - ice, 2 - dirt
+    private var prevGroundType:int;
     private var _gravity:Number = .9;
     private var _jumpV:Number = -11;
     private var _friction:Number = .95;
@@ -39,16 +42,21 @@ public class Hero extends MovieClip {
     private var _weaponMelee:WeaponMelee;
     private var _vecWeapons:Vector.<IWeapon>;
     private var _vecHitedHitboxes:Vector.<Boolean>;
-    private var _p1:MovieClip;
-    private var _p2:MovieClip;
-    private var _p3:MovieClip;
-    private var _p4:MovieClip;
 
-    public function Hero(_rt:MovieClip, wp1:WeaponMelee = null, wp2:WeaponRange = null) {
-        //TODO: сволота все равно проваливается
+    private var heroAnim:MovieClip;
+    private var heroRunMc:MovieClip;
+    private var heroJumpMc:MovieClip;
+    private var heroAttackMc:MovieClip;
+
+    public function Hero(_rt:MovieClip, currNumPart:int = 0, wp1:WeaponMelee = null, wp2:WeaponRange = null) {
         reset();
         _root = _rt;
         _heroDebug = new HeroDebug();
+        _heroDebug.p1.visible = false;
+        _heroDebug.p2.visible = false;
+        _heroDebug.p3.visible = false;
+        _heroDebug.p4.visible = false;
+        _heroDebug.p5.visible = false;
         _heroDebug.area_mc.visible = false;
         _heroDebug.magnit_mc.visible = false;
         this.addChild(_heroDebug);
@@ -57,29 +65,68 @@ public class Hero extends MovieClip {
         _weaponMelee = wp1;
         _weaponRange = wp2;
 //
+        //добавление оружия
         _weaponCurrent = _weaponMelee;
         _gun = new Gun(_rt);
         _gun.x = _heroDebug.x;
         _gun.y = _heroDebug.y - _heroDebug.height/2;
         this.addChild(_gun);
         _sword = new Sword();
+        _sword.y = Game.SWF_H;
         this.addChild(_sword);
         _vecWeapons.push(_gun, _sword);
         _weaponMelee = _sword;
         _weaponRange = _gun;
         _weaponCurrent = _vecWeapons[0];
 //        _weapon = _gun;
-        _p1 = new MovieClip();
-        _p2 = new MovieClip();
-        _p3 = new MovieClip();
-        _p4 = new MovieClip();
-//        this.addChild(_p1);
-//        this.addChild(_p2);
-//        this.addChild(_p3);
-//        this.addChild(_p4);
-        vy = 0;
-    }
 
+        vy = 0;
+
+        //скин
+        heroAnim = new MovieClip();
+        this.addChild(heroAnim);
+        if (currNumPart == 0) {
+            heroRunMc = new Part1HeroRunMc();
+            heroJumpMc = new Part1HeroJumpMc();
+            heroAttackMc = new Part1HeroAttackMc();
+        }
+
+        heroAnim.addChild(heroAttackMc);
+        heroAnim.addChild(heroRunMc);
+        heroAnim.addChild(heroJumpMc);
+
+        heroRunMc.addFrameScript(1, function() : void {
+            heroRunMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+            heroRunMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+        });
+//        heroJumpMc.addFrameScript(1, function() : void {
+//            heroRunMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+//            heroRunMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+//        });
+
+        heroAttackMc.visible = false;
+        heroAttackMc.stop();
+        heroJumpMc.visible = false;
+
+        heroAttackMc.addEventListener(Event.COMPLETE, function(e:Event) : void {
+
+            if(_weaponCurrent.getType() == 1) {
+            attackAllowed = true;
+            _sword.y = Game.SWF_H;
+            alrdAttacked = false;
+            isAttack = false;
+            }
+            changeAnim(0);
+        });
+        heroAttackMc.addFrameScript(heroAttackMc.totalFrames-1, function() : void {
+            heroAttackMc.dispatchEvent(new Event(Event.COMPLETE));
+            heroAttackMc.gotoAndStop(1);
+        });
+        heroAttackMc.addFrameScript(heroAttackMc.totalFrames/2, function() : void {
+            if (_weaponCurrent.getType() == 1)
+              _sword.y = 0;
+        });
+    }
     public function reset():void{
         vx = 0;
         vy = 0;
@@ -90,15 +137,21 @@ public class Hero extends MovieClip {
         alrdAttacked = false;
         isAttack = false;
         isJump = false;
+        attackAllowed = false;
         secondJumpAllowed = false;
         groundType = 0;// 0 - block, 1 - ice, 2 - dirt
+        prevGroundType = 0;
 
+        //обновить скин.
     }
 
-    public function atack():void {
+    public function attack():void {
 //        _weaponMelee.activate();
         trace("activate");
 //        _weapon.activate();
+//        if (_weaponCurrent.getType() == 1) {
+            changeAnim(2);
+//        }
         _weaponCurrent.activate();
     }
 
@@ -126,6 +179,10 @@ public class Hero extends MovieClip {
 ////        }
 //    }
     public function update():void {
+        if (this.groundType != this.prevGroundType && this.groundType == 0) {
+            changeAnim(0);
+        }
+        this.prevGroundType = this.groundType;
         if (this.groundType == Block.DIRT)
             this._friction = .5;
         else if (this.groundType == Block.ICE)
@@ -158,26 +215,8 @@ public class Hero extends MovieClip {
 //            _timerAttack.reset();
 //        }
 //        this._heroDebug.alpha = .2;
-        _p1.graphics.clear();
-        _p1.graphics.beginFill(0x000000, .3);
-        _p1.graphics.drawRect(_heroDebug.p1.getBounds(this).x - _heroDebug.p5.getBounds(this).width * .2, (_heroDebug.p1.getBounds(this).y), _heroDebug.p5.getBounds(this).width * .6, _heroDebug.p1.getBounds(this).height);
-//        _p1.graphics.drawRect(_heroDebug.p1.getBounds(this).x- _heroDebug.p5.getBounds(this).width * .2+vx  * _directionX,(_heroDebug.p1.getBounds(this).y)+vy*2,_heroDebug.p5.getBounds(this).width * .6,_heroDebug.p1.getBounds(this).height);
-        _p1.graphics.endFill();
-        _p2.graphics.clear();
-        _p2.graphics.beginFill(0x000000, .3);
-        _p2.graphics.drawRect(_heroDebug.p2.getBounds(this).x, (_heroDebug.p2.getBounds(this).y), _heroDebug.p2.getBounds(this).width, _heroDebug.p2.getBounds(this).height * .5);
-//        _p2.graphics.drawRect(_heroDebug.p2.getBounds(this).x+vx*2*_directionX,(_heroDebug.p2.getBounds(this).y)+vy+_heroDebug.p4.getBounds(this).height *.2,_heroDebug.p2.getBounds(this).width,_heroDebug.p2.getBounds(this).height *.5);
-        _p2.graphics.endFill();
-        _p3.graphics.clear();
-        _p3.graphics.beginFill(0x000000, .3);
-        _p3.graphics.drawRect(_heroDebug.p3.getBounds(this).x - _heroDebug.p5.getBounds(this).width * .2, (_heroDebug.p3.getBounds(this).y), _heroDebug.p5.getBounds(this).width * .6, _heroDebug.p3.getBounds(this).height);
-//        _p3.graphics.drawRect(_heroDebug.p3.getBounds(this).x- _heroDebug.p5.getBounds(this).width * .2+vx *_directionX,(_heroDebug.p3.getBounds(this).y)+vy*2,_heroDebug.p5.getBounds(this).width * .6,_heroDebug.p3.getBounds(this).height);
-        _p3.graphics.endFill();
-        _p4.graphics.clear();
-        _p4.graphics.beginFill(0x000000, .3);
-        _p4.graphics.drawRect(_heroDebug.p4.getBounds(this).x, (_heroDebug.p4.getBounds(this).y), _heroDebug.p4.getBounds(this).width, _heroDebug.p4.getBounds(this).height * .5);
-//        _p4.graphics.drawRect(_heroDebug.p4.getBounds(this).x+vx*2*_directionX,(_heroDebug.p4.getBounds(this).y)+vy+_heroDebug.p4.getBounds(this).height *.2,_heroDebug.p4.getBounds(this).width,_heroDebug.p4.getBounds(this).height *.5);
-        _p4.graphics.endFill();
+//        if(isJump && state == 2)
+
     }
 
     public function switchWeapon():void {
@@ -185,7 +224,8 @@ public class Hero extends MovieClip {
 //        _vecWeapons.push(_vecWeapons[0]);
         _vecWeapons.push(_vecWeapons.splice(0, 1)[0]);
         _weaponCurrent = _vecWeapons[0];
-        trace("currWeap=" + _weaponCurrent);
+        refreshAnimState();
+        trace("currWeap=" + _weaponCurrent+", type="+_weaponCurrent.getType());
     }
 
     private function drawBound(mc:MovieClip):void {
@@ -197,6 +237,8 @@ public class Hero extends MovieClip {
             countJumps++;
             isJump = true;
             vy = _jumpV;
+
+            changeAnim(1);
         }
     }
 
@@ -221,25 +263,7 @@ public class Hero extends MovieClip {
     public function isHitWith(type:int, mc:MovieClip = null):Boolean {
         //type: 0-top, 1-right, 2-bot, 3-left, 4 -all, 5 - weapon, 6 - coins
         hitedHBoxes = createVecHitedHBoxes(mc);
-        /*
-         createVecHitedHBoxes(mc);
-         if (type == 0) {
-         return mc.hitTestObject(this._p1);
-         //            return mc.hitTestObject(this._heroDebug.p1);
-         }
-         if (type == 1) {
-         return mc.hitTestObject(this._p2);
-         //            return mc.hitTestObject(this._heroDebug.p2);
-         }
-         if (type == 2) {
-         return mc.hitTestObject(this._p3);
-         //            return mc.hitTestObject(this._heroDebug.p3);
-         }
-         if (type == 3) {
-         return mc.hitTestObject(this._p4);
-         //            return mc.hitTestObject(this._heroDebug.p4);
-         }
-         //        */
+
 //        var tmp:int = 5;// <- скорость уровня
         if (type == 4) {
             if (mc is Enemy)
@@ -298,10 +322,6 @@ public class Hero extends MovieClip {
                 mc.hitTestObject(this._heroDebug.p2),
                 mc.hitTestObject(this._heroDebug.p3),
                 mc.hitTestObject(this._heroDebug.p4)
-//                mc.hitTestObject(this._p1),
-//                mc.hitTestObject(this._p2),
-//                mc.hitTestObject(this._p3),
-//                mc.hitTestObject(this._p4)
         );
         var q:int = int(_vecHitedHitboxes[0] + _vecHitedHitboxes[1] + _vecHitedHitboxes[2] + _vecHitedHitboxes[3]);
         return q;
@@ -311,6 +331,67 @@ public class Hero extends MovieClip {
         countJumps = 0;
         secondJumpAllowed = true;
     }
+
+    private function changeAnim(st:int) : void {
+        //0 - run, 1 - jump, 2 - attack
+        if (st == 0) {
+            heroJumpMc.gotoAndStop(1);
+            heroAttackMc.gotoAndStop(1);
+            heroRunMc.gotoAndPlay(1);
+
+//            heroRunMc.addFrameScript(1, function() : void {
+                heroRunMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+                heroRunMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+//            });
+
+            heroAttackMc.visible = false;
+            heroJumpMc.visible = false;
+            heroRunMc.visible = true;
+
+//TODO раскомментить если надо быдет стрельба из лука очередью
+//            alrdAttacked = false;
+//            isAttack = false;
+        } else if (st == 1) {
+            heroJumpMc.gotoAndPlay(1);
+            heroAttackMc.gotoAndStop(1);
+            heroRunMc.gotoAndStop(1);
+            heroJumpMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+            heroJumpMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+            heroJumpMc.frontHandMc.p.gotoAndPlay(1);
+            heroJumpMc.backHandMc.p.gotoAndPlay(1);
+
+            heroAttackMc.visible = false;
+            heroJumpMc.visible = true;
+            heroRunMc.visible = false;
+
+            alrdAttacked = false;
+            isAttack = false;
+        } else if (st == 2) {
+            heroJumpMc.gotoAndStop(1);
+            heroRunMc.gotoAndStop(1);
+            heroAttackMc.gotoAndPlay(1);
+            heroAttackMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+            heroAttackMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+            heroAttackMc.frontHandMc.p.gotoAndPlay(1);
+            if (heroAttackMc.backHandMc.p)
+                heroAttackMc.backHandMc.p.gotoAndPlay(1);
+
+
+            heroAttackMc.visible = true;
+            heroJumpMc.visible = false;
+            heroRunMc.visible = false;
+        }
+    }
+
+    private function refreshAnimState() : void {
+        heroRunMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+        heroRunMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+        heroJumpMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+        heroJumpMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+        heroAttackMc.frontHandMc.gotoAndStop(_weaponCurrent.getType());
+        heroAttackMc.backHandMc.gotoAndStop(_weaponCurrent.getType());
+    }
+
 
 //    private function onTick(e:TimerEvent):void{
 //        this.countAttacks ++;

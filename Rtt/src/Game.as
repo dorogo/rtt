@@ -23,6 +23,7 @@ public class Game extends MovieClip {
     public static const SWF_W:int = 640;
     private var boundsOffsetX:Number = .15;
     private var boundsOffsetY:Number = .15;
+    private var currNumPart:int;
 //    private var _arrBlocks:Array;
 //    private var _arrEnemies:Array;
     private var _hero:Hero;
@@ -77,6 +78,7 @@ public class Game extends MovieClip {
         _preBgTexturesMc = new MovieClip();
         _frontTexturesMc = new MovieClip();
         _bulletsContainer = new MovieClip();
+        currNumPart = 0;
         setup();
         setupTextures()
     }
@@ -85,14 +87,10 @@ public class Game extends MovieClip {
         stage.addEventListener(KeyboardEvent.KEY_UP, onKeyUp);
         stage.addEventListener(KeyboardEvent.KEY_DOWN, onKeyDown);
         _keyObj = new KeyObject(stage);
-//        _arrBlocks = new Array();
-//        _arrEnemies = new Array();
-        //adding blocks
-        _hero = new Hero(this);
+        _hero = new Hero(this, currNumPart);
         _hero.x = SWF_W * .5;
         _hero.y = SWF_H * .7;
         this.addChild(_hero);
-//чекнуть fps с перемещением уровня частями.
         //add lvl
         tmpLvl = new Lvl(this);
         tmpLvl.setup();
@@ -111,7 +109,7 @@ public class Game extends MovieClip {
             _hero.secondJumpAllowed = true;
             _hero.countJumps++;
         }
-        if (e.keyCode == Keyboard.SPACE) {
+        if (e.keyCode == Keyboard.SPACE && _hero.getWeapon(0).getType() == 2) {
             _hero.isAttack = false;
             _hero.alrdAttacked = false;
         }
@@ -182,6 +180,7 @@ public class Game extends MovieClip {
             }
             //чек
             if (tmpLvl.vecBl[i].t == 1 && _hero.isHitWith(5, tmpLvl.vecBl[i])) {
+//                if (_hero.attackAllowed && !_hero.alrdAttacked) {
                 if (_hero.isAttack && !_hero.alrdAttacked) {
                     _hero.alrdAttacked = true;
                     tmpLvl.vecBl[i].reduceLife();
@@ -239,7 +238,8 @@ public class Game extends MovieClip {
                     }
                 }
             if (_hero.isHitWith(5, tmpLvl.vecEn[i])) {
-                if (_hero.isAttack && !_hero.alrdAttacked) {
+//                if (_hero.attackAllowed&& !_hero.alrdAttacked) {
+                if (_hero.isAttack) {// && !_hero.alrdAttacked) {
                     _hero.alrdAttacked = true;
                     tmpLvl.vecEn[i].reduceLife();
                     trace("HIT!enemy -1 LIFE!");
@@ -299,6 +299,9 @@ public class Game extends MovieClip {
                 _hero.x -= Global._spdLvl - 1;
             if (_hero.groundType == Block.BLOCK)
                 _hero.vx = 0;
+            if(_hero.x > SWF_W * (1  - boundsOffsetX) || _hero.x < boundsOffsetX * SWF_W){
+                _hero.vx = 0;
+            }
         }
         if (_keyObj.isDown(Keyboard.UP)) {
             if (!_hero.isJump || _hero.secondJumpAllowed)
@@ -311,14 +314,12 @@ public class Game extends MovieClip {
         }
         if (_keyObj.isDown(Keyboard.SPACE) && _hero.state != 2 && !_hero.isAttack) {
             _hero.isAttack = true;
-            _hero.atack();
+            _hero.attack();
         }
     }
 
     public function setupTextures():void {
         var bg:Bg = new Bg();
-        bg.x = 320;
-        bg.y = 200;
         trace("it's work", this.getChildIndex(_hero));
 //        this.addChild(_preBgTexturesMc);
         this.addChildAt(_backTexturesMc, this.getChildIndex(_hero));

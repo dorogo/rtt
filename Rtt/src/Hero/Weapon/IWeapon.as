@@ -7,10 +7,13 @@
  */
 package Hero.Weapon {
 public interface IWeapon {
+
     function activate():void;
 
     function update():void;
 
     function getArrBullets():Array;
+
+    function getType():int;
 }
 }
