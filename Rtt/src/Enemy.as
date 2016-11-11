@@ -66,6 +66,12 @@ public class Enemy extends MovieClip {
             this.addChild(enemyDebug);
         }
         enemyDebug.gotoAndStop(type);
+        enemyDebug.p.visible = false;
+        //TODO временное
+        if (type == 1 || type == 2 || type == 3) {
+            enemyDebug.i.gotoAndStop(1);
+            enemyDebug.i.q.gotoAndPlay((int)(Math.random()*enemyDebug.i.q.totalFrames));
+        }
 //        tmpTime = getTimer();
         tmpTime == 0;
         tmpArray = new Array();
@@ -183,6 +189,15 @@ public class Enemy extends MovieClip {
                 tmpArray[i].splice(i, 1);
             }
         tmpArray = [];
+    }
+
+    public function playDestroy() : void {
+        //TODO if временный
+        if (enemyDebug.i != null) {
+            enemyDebug.i.gotoAndStop(2);
+            enemyDebug.i.q.play();
+
+        }
     }
 }
 }

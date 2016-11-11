@@ -25,6 +25,7 @@ public class Lvl extends Sprite {
     public var vecBl:Vector.<Block>;                            //вектор созданных блоков
     public var vecBlForDel:Vector.<MovieClip>;                      //вектор для элементов, которые должны проиграть анимацию перед исчезновением
     public var vecEn:Vector.<Enemy>;                            //вектор созданных врагов
+    public var vecEnForDel:Vector.<Enemy>;                      //вектор врагов, которые проигрывают анимацию смерти
 //    public var vecDynamicEn:Vector.<Enemy>;                     //вектор созданных динмаичных врагов
     public var vecCoins:Vector.<Coin>;                          //вектор созданных монет
     public var vecTexturePartsBlocks:Vector.<Vector.<MovieClip>>;       //вектор частей из блоков для маски
@@ -85,6 +86,7 @@ public class Lvl extends Sprite {
         vecBl = new Vector.<Block>();
         vecBlForDel = new Vector.<MovieClip>();
         vecEn = new Vector.<Enemy>();
+        vecEnForDel = new Vector.<Enemy>();
         vecCoins = new Vector.<Coin>();
 //        vecDynamicEn = new Vector.<Enemy>();
         vecTexturePartsBlocks = new Vector.<Vector.<MovieClip>>();
@@ -455,11 +457,18 @@ public class Lvl extends Sprite {
                 }
             } else if (vecParts[i].getChildAt(j) is Enemy) {
                 indexDetail = vecEn.indexOf(vecParts[i].getChildAt(j));
-                vecPoolEnemies.push(vecEn[indexDetail]);
+                if (indexDetail >= 0) {
+                    vecPoolEnemies.push(vecEn[indexDetail]);
 //                        if (vecEn[indexDetail].getType() >= 3)
 //                            vecDynamicEn.splice(vecDynamicEn.indexOf(vecEn[indexDetail]), 1);
-                vecEn[indexDetail] = null;
-                vecEn.splice(indexDetail, 1);
+                    vecEn[indexDetail] = null;
+                    vecEn.splice(indexDetail, 1);
+                } else {
+                    indexDetail = vecEnForDel.indexOf(vecParts[i].getChildAt(j));
+                    vecPoolEnemies.push(vecEnForDel[indexDetail]);
+                    vecEnForDel[indexDetail] = null;
+                    vecEnForDel.splice(indexDetail, 1);
+                }
             } else if (vecParts[i].getChildAt(j) is Coin) {
                 indexDetail = vecCoins.indexOf(vecParts[i].getChildAt(j));
                 vecPoolCoins.push(vecCoins[indexDetail]);
@@ -662,6 +671,10 @@ public class Lvl extends Sprite {
 
     public function addBlockDelAnim(b:Block):void {
         this.vecBlForDel.push(b);
+    }
+
+    public function addEnemyDelAnim(b:Enemy):void {
+        this.vecEnForDel.push(b);
     }
 
     public function getCountDelAnim():int {

@@ -251,11 +251,17 @@ public class Game extends MovieClip {
             }
             //delete enemies
             if (tmpLvl.vecEn[i].getCurrLife() <= 0) {
-                tmpLvl.deleteObj(tmpLvl.vecEn[i]);
-                tmpLvl.addFreeEnemyToPool(tmpLvl.vecEn[i]);
-//                tmpLvl.vecDynamicEn.splice(tmpLvl.vecDynamicEn.indexOf(tmpLvl.vecEn[i]), 1);
+                tmpLvl.vecEn[i].playDestroy();
+                tmpLvl.addEnemyDelAnim(tmpLvl.vecEn[i]);
                 tmpLvl.vecEn[i] = null;
                 tmpLvl.vecEn.splice(i, 1);
+
+//
+//                tmpLvl.deleteObj(tmpLvl.vecEn[i]);
+//                tmpLvl.addFreeEnemyToPool(tmpLvl.vecEn[i]);
+////                tmpLvl.vecDynamicEn.splice(tmpLvl.vecDynamicEn.indexOf(tmpLvl.vecEn[i]), 1);
+//                tmpLvl.vecEn[i] = null;
+//                tmpLvl.vecEn.splice(i, 1);
             }
         }
         //почекать по памяти. + после части уровня с динамическим енеми - следующий появляется с пропуском - наверное длина неправильно считается
